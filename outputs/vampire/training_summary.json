@@ -1,0 +1,42 @@
+{
+  "split": "Training",
+  "people": 14951,
+  "predicted_vampires": 91,
+  "timezone": "UTC",
+  "night_window": "00:00 < time <= 05:00",
+  "midnight_policy": "Day activity on its UTC calendar date",
+  "date_scope": "All supplied valid timestamps; no calendar-year filter",
+  "activity_rows": {
+    "lms_item_activity_by_session": {
+      "total": 7857424,
+      "unknown_person": 0,
+      "invalid_timestamp_among_known_people": 0,
+      "used": 7857424
+    },
+    "video_activity_by_view": {
+      "total": 1145358,
+      "unknown_person": 2773,
+      "invalid_timestamp_among_known_people": 0,
+      "used": 1142585
+    }
+  },
+  "training_evaluation": {
+    "true_positives": 91,
+    "false_positives": 0,
+    "false_negatives": 8,
+    "true_negatives": 14852,
+    "precision": 1.0,
+    "recall": 0.9191919191919192,
+    "false_positive_ids": [],
+    "false_negative_ids": [
+      "P00000843",
+      "P00003737",
+      "P00006150",
+      "P00010507",
+      "P00011882",
+      "P00014044",
+      "P00016464",
+      "P00018324"
+    ]
+  }
+}

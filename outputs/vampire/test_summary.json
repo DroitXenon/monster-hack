@@ -1,0 +1,24 @@
+{
+  "split": "Test",
+  "people": 1874,
+  "predicted_vampires": 12,
+  "timezone": "UTC",
+  "night_window": "00:00 < time <= 05:00",
+  "midnight_policy": "Day activity on its UTC calendar date",
+  "date_scope": "All supplied valid timestamps; no calendar-year filter",
+  "activity_rows": {
+    "lms_item_activity_by_session": {
+      "total": 960024,
+      "unknown_person": 0,
+      "invalid_timestamp_among_known_people": 0,
+      "used": 960024
+    },
+    "video_activity_by_view": {
+      "total": 144735,
+      "unknown_person": 318,
+      "invalid_timestamp_among_known_people": 0,
+      "used": 144417
+    }
+  },
+  "official_accuracy": "Unknown: TEST 1 labels unavailable."
+}
