@@ -1,4 +1,4 @@
-# Ghost: stages 2 and 3
+# Ghost
 
 Run from the project folder in the `monster-hack` Conda environment:
 
