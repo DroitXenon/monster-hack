@@ -1,0 +1,30 @@
+{
+  "split": "Test",
+  "people": 1874,
+  "predicted_ghosts": 14,
+  "academic_year": 2023,
+  "early_weeks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "later_week_count": 48,
+  "activity_rows": {
+    "lms_item_activity_by_session": {
+      "total": 960024,
+      "outside_calendar": 1162,
+      "unknown_person": 0,
+      "excluded": 1162,
+      "used": 958862
+    },
+    "video_activity_by_view": {
+      "total": 144735,
+      "outside_calendar": 37,
+      "unknown_person": 318,
+      "excluded": 355,
+      "used": 144380
+    }
+  },
+  "official_accuracy": "Not available: TEST 1 labels have not been provided."
+}
