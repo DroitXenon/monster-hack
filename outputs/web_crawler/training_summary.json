@@ -1,0 +1,79 @@
+{
+  "split": "Training",
+  "monster": "Web Crawler",
+  "people": 14981,
+  "registered_people": 14951,
+  "activity_only_people": 30,
+  "predicted": 15,
+  "rule": "More than 200 distinct LMS items OR more than 200 distinct videos within an inclusive rolling 12-hour window. Sources evaluated separately.",
+  "timezone": "UTC",
+  "activity_audit": {
+    "lms_item_activity_by_session": {
+      "total": 7857424,
+      "unknown_person": 0,
+      "activity_only_person_rows": 0,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 10461
+    },
+    "video_activity_by_view": {
+      "total": 1145358,
+      "unknown_person": 0,
+      "activity_only_person_rows": 2773,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 288
+    },
+    "registration_unknown_people": 0
+  },
+  "official_test_accuracy": "Unknown; TEST 1 labels unavailable",
+  "training_evaluation": {
+    "labelled": 47,
+    "labels_absent_from_inputs": [],
+    "true_positives": 14,
+    "false_positives": 1,
+    "false_negatives": 33,
+    "precision": 0.9333333333333333,
+    "recall": 0.2978723404255319,
+    "false_positive_ids": [
+      "P00017445"
+    ],
+    "false_negative_ids": [
+      "P00000016",
+      "P00000514",
+      "P00000661",
+      "P00000788",
+      "P00000789",
+      "P00000919",
+      "P00002121",
+      "P00002162",
+      "P00002681",
+      "P00003012",
+      "P00004747",
+      "P00005195",
+      "P00006129",
+      "P00006264",
+      "P00007991",
+      "P00009367",
+      "P00009552",
+      "P00009765",
+      "P00009821",
+      "P00011539",
+      "P00013137",
+      "P00015893",
+      "P00015929",
+      "P00015991",
+      "P00016464",
+      "P00016476",
+      "P00016576",
+      "P00017241",
+      "P00018324",
+      "P00018839",
+      "P00020105",
+      "P00021475",
+      "P00022304"
+    ]
+  }
+}

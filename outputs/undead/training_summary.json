@@ -1,0 +1,43 @@
+{
+  "split": "Training",
+  "monster": "Undead Student",
+  "people": 14981,
+  "registered_people": 14951,
+  "activity_only_people": 30,
+  "predicted": 92,
+  "rule": "Activity DATE strictly after deregistration calendar date; UK day-first person dates.",
+  "timezone": "UTC",
+  "activity_audit": {
+    "lms_item_activity_by_session": {
+      "total": 7857424,
+      "unknown_person": 0,
+      "activity_only_person_rows": 0,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 10461
+    },
+    "video_activity_by_view": {
+      "total": 1145358,
+      "unknown_person": 0,
+      "activity_only_person_rows": 2773,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 288
+    },
+    "registration_unknown_people": 0
+  },
+  "official_test_accuracy": "Unknown; TEST 1 labels unavailable",
+  "training_evaluation": {
+    "labelled": 92,
+    "labels_absent_from_inputs": [],
+    "true_positives": 92,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_positive_ids": [],
+    "false_negative_ids": []
+  }
+}

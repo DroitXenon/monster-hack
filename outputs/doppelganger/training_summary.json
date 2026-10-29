@@ -1,0 +1,63 @@
+{
+  "split": "Training",
+  "monster": "Doppelg\u00e4nger",
+  "people": 14981,
+  "registered_people": 14951,
+  "activity_only_people": 30,
+  "predicted": 60,
+  "rule": "Identical complete nonempty activity histories within LMS or video, excluding person ID and row primary key. Compare all remaining fields and row multiplicity; include every partner.",
+  "timezone": "UTC",
+  "activity_audit": {
+    "lms_item_activity_by_session": {
+      "total": 7857424,
+      "unknown_person": 0,
+      "activity_only_person_rows": 0,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 10461
+    },
+    "video_activity_by_view": {
+      "total": 1145358,
+      "unknown_person": 0,
+      "activity_only_person_rows": 2773,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 288
+    },
+    "registration_unknown_people": 0
+  },
+  "official_test_accuracy": "Unknown; TEST 1 labels unavailable",
+  "training_evaluation": {
+    "labelled": 72,
+    "labels_absent_from_inputs": [
+      "P00171029",
+      "P00533530",
+      "P00763184",
+      "P00793394",
+      "P00871965",
+      "P00875288"
+    ],
+    "true_positives": 60,
+    "false_positives": 0,
+    "false_negatives": 12,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "false_positive_ids": [],
+    "false_negative_ids": [
+      "P00000950",
+      "P00002830",
+      "P00006284",
+      "P00006471",
+      "P00016849",
+      "P00020262",
+      "P00171029",
+      "P00533530",
+      "P00763184",
+      "P00793394",
+      "P00871965",
+      "P00875288"
+    ]
+  }
+}

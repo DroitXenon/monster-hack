@@ -1,0 +1,59 @@
+{
+  "split": "Training",
+  "monster": "Phantom",
+  "people": 14981,
+  "registered_people": 14951,
+  "activity_only_people": 30,
+  "predicted": 77,
+  "rule": "Exact duplicate activity fields within either source, excluding its row primary key.",
+  "timezone": "UTC",
+  "activity_audit": {
+    "lms_item_activity_by_session": {
+      "total": 7857424,
+      "unknown_person": 0,
+      "activity_only_person_rows": 0,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 10461
+    },
+    "video_activity_by_view": {
+      "total": 1145358,
+      "unknown_person": 0,
+      "activity_only_person_rows": 2773,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 288
+    },
+    "registration_unknown_people": 0
+  },
+  "official_test_accuracy": "Unknown; TEST 1 labels unavailable",
+  "training_evaluation": {
+    "labelled": 62,
+    "labels_absent_from_inputs": [],
+    "true_positives": 62,
+    "false_positives": 15,
+    "false_negatives": 0,
+    "precision": 0.8051948051948052,
+    "recall": 1.0,
+    "false_positive_ids": [
+      "P00000097",
+      "P00001743",
+      "P00002121",
+      "P00003175",
+      "P00003227",
+      "P00003361",
+      "P00007447",
+      "P00008492",
+      "P00008811",
+      "P00009298",
+      "P00010223",
+      "P00010777",
+      "P00010948",
+      "P00014989",
+      "P00017394"
+    ],
+    "false_negative_ids": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "split": "Test",
+  "monster": "Web Crawler",
+  "people": 1879,
+  "registered_people": 1874,
+  "activity_only_people": 5,
+  "predicted": 0,
+  "rule": "More than 200 distinct LMS items OR more than 200 distinct videos within an inclusive rolling 12-hour window. Sources evaluated separately.",
+  "timezone": "UTC",
+  "activity_audit": {
+    "lms_item_activity_by_session": {
+      "total": 960024,
+      "unknown_person": 0,
+      "activity_only_person_rows": 0,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 1162
+    },
+    "video_activity_by_view": {
+      "total": 144735,
+      "unknown_person": 0,
+      "activity_only_person_rows": 318,
+      "invalid_timestamp": 0,
+      "invalid_date": 0,
+      "missing_resource": 0,
+      "outside_calendar": 37
+    },
+    "registration_unknown_people": 0
+  },
+  "official_test_accuracy": "Unknown; TEST 1 labels unavailable"
+}
